@@ -22,15 +22,6 @@ module FormsLab
       @ships = Ship.all
 
       erb :'pirates/show'
-=======
-    get "/" do
-     erb :root
-    end
-    
-    get "/new" do
-      erb :new
->>>>>>> b3b2bf25a0168e7183224668a3c8ffa68410dcf9
-    end
     
   end
 end
