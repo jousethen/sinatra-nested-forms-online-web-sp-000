@@ -2,8 +2,6 @@ require './environment'
 
 module FormsLab
   class App < Sinatra::Base
-
-<<<<<<< HEAD
     # code other routes/actions here
     get "/" do
       erb :root
